@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue';
     margin: 0;
     min-height: 100vh;
 }
@@ -15,6 +15,12 @@ ul {
 
 button {
     background-color: #3882f6;
+    height: 28px;
+    width: 96px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+
 }
 
 .header, .top-section, .second-section, .third-section, .fourth-section {
@@ -29,18 +35,42 @@ button {
     flex: auto;
 }
 
-#hero-button {
-    border-color: #1f2937;
+.header {
+    height: 64px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 32px;
+    padding-top: 16px;
 }
+
+.header > ul {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
 
 .top-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: s;
+    gap: 64px;
+    height: 40vh;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    color: #e5e7ebbe;
+    gap: 8px;
+    flex: 1 1 1;
+}
+
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .second-section {
