@@ -89,6 +89,12 @@ button {
     justify-content: space-evenly;
 }
 
+.second-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .box-and-text {
     display: flex;
     flex-direction: column;
